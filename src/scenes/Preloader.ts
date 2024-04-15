@@ -34,7 +34,7 @@ export class Preloader extends Scene
 
         this.load.image('logo', 'logo.png');
         this.load.image('crosshair', 'crosshair.png');
-        this.load.spritesheet('character', 'Character_006.png', { frameWidth:72, frameHeight: 72, endFrame: 15});
+        this.load.spritesheet('character', 'Character_001.png', { frameWidth:72, frameHeight: 72, endFrame: 15});
 }
 
     create ()
