@@ -21,6 +21,10 @@ export class Player {
     this.player.setBounce(0.2);
   }
 
+  getGameObject = () => {
+    return this.player;
+  }
+
 
   update = (cursors: Phaser.Types.Input.Keyboard.CursorKeys) => {
     let velocityX = 0;
