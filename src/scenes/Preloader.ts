@@ -33,6 +33,7 @@ export class Preloader extends Scene
         this.load.setPath('assets');
 
         this.load.image('logo', 'logo.png');
+        this.load.svg('demo-cave', 'demo-cave.svg', {width:700, height:700});
         this.load.image('crosshair', 'crosshair.png');
         this.load.spritesheet('character', 'Character_001.png', { frameWidth:72, frameHeight: 72, endFrame: 15});
         this.load.spritesheet('zombie', 'Character_006.png', { frameWidth:72, frameHeight: 72, endFrame: 15});

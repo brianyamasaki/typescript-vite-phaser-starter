@@ -24,7 +24,7 @@ const config: Types.Core.GameConfig = {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
-    scene: [
+    scene: [ // Every screen in the game must be included here
         Boot,
         Preloader,
         MainMenu,
